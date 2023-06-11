@@ -341,17 +341,19 @@ body {
   justify-content: center;
   color: #8e8f99;
 }
-.customers-social-icon {
-  fill: currentColor;
-}
+
 .customers-social-link:is(:hover, :focus) {
   border: 1px solid #404bbf;
+  color: #404bbf;
 }
 
 .customers-social-link:is(:hover, :focus) .customers-social-icon {
   fill: #404bbf;
 }
 
+.customers-social-icon {
+  fill: currentColor;
+}
 .customers-social-list {
   display: flex;
   gap: 24px;
