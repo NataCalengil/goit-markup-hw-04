@@ -318,7 +318,6 @@ body {
   background-color: #404bbf;
 }
 
-
 /* Customers */
 .customers {
   padding: 120px 0;
@@ -356,13 +355,18 @@ body {
   background: var(--secondary-text-color);
   padding: 100px 0;
 }
-
 .footer-content {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
-.footer-content-social .footer-text {
-  padding: 0 0 16px;
+
+.footer-content-logo {
+  margin-right: 120px;
+}
+
+.footer-content-social .icon-list {
+  gap: 16px;
+  align-items: baseline;
 }
 
 .footer-content-social .team-social-link:hover {
@@ -381,6 +385,8 @@ body {
 .footer-text {
   color: var(--footer-text-color);
   max-width: 264px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 
 /* Portfolio page */
@@ -416,6 +422,9 @@ body {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
+}
+.portfolio-link {
+  display: block;
 }
 
 .portfolio-item {
